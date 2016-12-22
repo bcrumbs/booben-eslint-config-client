@@ -1,3 +1,9 @@
 module.export = {
-  'extends': '@eslint/eslint-config-common'
+  'env': {
+    'browser': true
+  },
+  'extends': '@eslint/eslint-config-common',
+  'rules': {
+    
+  }
 };
