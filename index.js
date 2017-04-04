@@ -1,9 +1,7 @@
 module.exports = {
   'extends': '@eslint/eslint-config-common',
 
-  'rules': {
-    'tabindex-no-positive': [0],
-    
+  'rules': {    
     // Added by Dmitriy Bizyaev on 11.01.2017
     'comma-dangle': [2, {
       'arrays': 'always-multiline',
