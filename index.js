@@ -2,7 +2,6 @@ module.exports = {
   'extends': '@eslint/eslint-config-common',
 
   'rules': {    
-    // Added by Dmitriy Bizyaev on 11.01.2017
     'comma-dangle': [2, {
       'arrays': 'always-multiline',
       'objects': 'always-multiline',
